@@ -8,6 +8,7 @@ public enum TokenType {
     MINUS,
     STAR,
     SLASH,
+    CARET,
 
     EOF,
 }

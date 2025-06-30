@@ -18,6 +18,7 @@ public class Lexer {
         this.DESIGNATIONS.put('/', TokenType.SLASH);
         this.DESIGNATIONS.put('(', TokenType.LPAREN);
         this.DESIGNATIONS.put(')', TokenType.RPAREN);
+        this.DESIGNATIONS.put('^', TokenType.CARET);
     }
 
     public List<Token> scan(String input) {
